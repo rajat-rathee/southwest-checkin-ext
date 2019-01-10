@@ -1,0 +1,6 @@
+{
+    "name": "Southwest Check-In Extension",
+    "version": "1.0",
+    "description": "Automated check-in into your Southwest flight.",
+    "manifest_version": 1
+  }
