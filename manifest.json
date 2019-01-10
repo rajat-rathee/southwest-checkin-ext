@@ -2,5 +2,23 @@
     "name": "Southwest Check-In Extension",
     "version": "1.0",
     "description": "Automated check-in into your Southwest flight.",
-    "manifest_version": 1
+    "permissions": ["declarativeContent", "storage"],
+    "background": {
+    	"scripts": ["js/background.js"],
+    	"presistent": false
+    },
+    "icons": {
+      "32": "icons/southwest_logo32.png",
+      "48": "icons/southwest_logo48.png",
+      "128": "icons/southwest_logo128.png"
+    },
+    "page_action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+      "32": "icons/southwest_logo32.png",
+      "48": "icons/southwest_logo48.png",
+      "128": "icons/southwest_logo128.png"
+      }
+    },
+    "manifest_version": 2
   }
