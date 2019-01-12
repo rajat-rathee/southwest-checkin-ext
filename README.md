@@ -4,7 +4,7 @@ Enter name, confirmation number, date, and time of flight and don't worry about 
 
 ### Installing
 
-1. Download Southwest-Checkin-Extension.crx
+1. Download Southwest-Checkin-Extension.crx in the crx folder.
 2. Open [chrome://extensions/](chrome://extensions/) in a Google Chrome tab.
 3. Drag and drop the .crx file onto the page and follow instructions.
 4. Done!
