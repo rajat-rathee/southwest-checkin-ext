@@ -47,11 +47,3 @@ chrome.alarms.create({when: mili});
 
 var full = (fn+","+ln+","+num);
 chrome.runtime.sendMessage({from:"ex",message:full});
-
-
-/*chrome.alarms.onAlarm.addListener(function(){
-	chrome.tabs.create({url: 'https://www.southwest.com/air/check-in/index.html?clk=GSUBNAV-CHCKIN%27'});
-	var full = (fn+","+ln+","+num);
-	chrome.runtime.sendMessage({from:"ex",message:full});
-	chrome.power.releaseKeepAwake()
-});*/
